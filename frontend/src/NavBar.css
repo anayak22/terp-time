@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Gluten:wght@200&display=swap');
 .nav {
+    display: flex;
+    flex-direction: row;
     background-color: #874a53;
     color: black;
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-    gap: 3rem;
+    justify-content: space-between;
+ 
     padding: 1rem;
 }
 
@@ -27,8 +29,18 @@
 }
 
 .site-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Gluten', cursive;
     padding-left: 3.5rem;
+}
+
+
+#current {
+    font-size: 2rem;
+    font-family: 'Gluten', cursive;
+    display:flex;
+    flex-flow: row;
+    width: 30%;
+    align-self:flex-end;
 }
 
